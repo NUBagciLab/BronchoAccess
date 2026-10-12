@@ -1,0 +1,23 @@
+name: bronchoaccess
+channels:
+  - pyg
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=1.13.0
+  - torchvision=0.14.0
+  - pytorch-cuda=11.7
+  - pytorch-scatter=2.1.1
+  - numpy=1.26.4
+  - pip
+  - pip:
+      - torch-geometric==2.7.0
+      - pandas==2.3.3
+      - scikit-learn==1.7.2
+      - scipy==1.15.3
+      - nibabel==5.3.3
+      - tqdm==4.67.3
+      - tensorboard==2.20.0
+      - huggingface_hub
